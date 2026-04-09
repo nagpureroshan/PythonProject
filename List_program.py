@@ -7,6 +7,8 @@ def get_even_numbers_from_random_list(size, lower=0, upper=100):
     random_list.append(42)  # Append a specific value to the list
     print('appended 42 to list: ',random_list)  # Print the list after appending
 
+    print('Element at index 3: ', random_list[3])   # Print the element at index 3 of the list
+
     random_list.pop()  # Remove the last element from the list
     print('popped last element from list: ', random_list)  # Print the list after popping the last element
 
